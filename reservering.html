@@ -20,33 +20,31 @@
 <div class="center">
     <h1> Online Tafel Reserveren</h1>
 
-    <div id="error"></div>
-    <form id="form" action="<?= htmlspecialchars($_SERVER['REQUEST_URI']); ?>" method="post"
-          enctype="multipart/form-data">
+
         <div class="data-field">
-            <label for="Uw Naam"></label>
+            <label for="Naam"></label>
             <input id="naam" type="text" placeholder="Uw Naam" name="naam" />
 
-            <label for="Uw Telefoonnummer"></label>
+            <label for="Telefoonnummer"></label>
             <input id="telefoonnummer" type="text" placeholder="Uw Telefoonnummer" name="telefoonnummer" />
 
-            <label for="Uw Email"></label>
+            <label for="Email"></label>
             <input id="email" type="email" placeholder="Uw E-mail" name="mail" />
 
         </div>
         <div class="data-field">
             <label for="dd-mm-jjjj"></label>
-            <input id="dd-mm-jjjj" type="date" placeholder="Datum" name="datum" value="<?= (isset($datum) ? $datum : ''); ?>"/>
+            <input id="dd-mm-jjjj" type="date" placeholder="Datum" name="datum" />
 
             <label for="Tijd"></label>
-            <input id="tijd" type="time" placeholder="Tijd" name="tijd" value="<?= (isset($time) ? $time : ''); ?>"/>
+            <input id="tijd" type="time" placeholder="Tijd" name="tijd" />
 
-            <input id="personen" type="number" placeholder="Aantal Personen" name="personen" value="<?= (isset($personen) ? $personen : ''); ?>"/>
+            <input id="personen" type="number" placeholder="Aantal Personen" name="personen" />
        
         </div>
         <div class="data-field">
             <label for="Opmerkingen"></label>
-            <input id="opmerkingen" type="text" placeholder="Opmerkingen" name="opmerkingen"
+            <input id="opmerkingen" type="text" placeholder="Opmerkingen" name="opmerkingen">
 
         </div>
         <div class="data-submit">

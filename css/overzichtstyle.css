@@ -45,6 +45,7 @@ nav ul a.active {
     text-align: left;
     padding-top: 100px;
     padding-left: 100px;
+    padding-right: 100px;
 }
 h1 {
     color: #191241;
@@ -64,3 +65,5 @@ h1 {
 .blue-color {
     color: #191241;
 }
+
+
