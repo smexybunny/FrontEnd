@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        </style>
+
+    <title>Reserveringen</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+</head>
+
+<header>
+    <nav>
+        <a
+            href="index.html"><img src="css/img/logo.png" width="300" height="75" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="menu.html">Menukaart</a></li>
+            <li><a href="reservering.html">Reserveren</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="column">
+            <img src="css/img/menu2.png" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="css/img/menu.png"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="css/img/menu1.png" style="width:100%">
+        </div>
+    </div>
+</header>
+<body>
+
+
+
